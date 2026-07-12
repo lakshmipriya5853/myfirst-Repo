@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Landing Page</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Hero Section -->
+    <section class="bg-gray-900 text-white text-center py-20">
+        <h1 class="text-6xl font-bold">Welcome to Our Restaurant</h1>
+        <p class="mt-4 text-xl">
+            Delicious Food • Fresh Ingredients • Great Experience
+        </p>
+
+        <a href="#menu"
+           class="inline-block mt-8 bg-red-600 px-6 py-3 rounded-lg hover:bg-red-700">
+            Explore Menu
+        </a>
+    </section>
+
+    <!-- About Us -->
+    <section class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto text-center px-6">
+            <h2 class="text-4xl font-bold text-red-600">
+                About Us
+            </h2>
+
+            <p class="mt-6 text-gray-700 text-lg">
+                We serve delicious food prepared with fresh ingredients.
+                Our chefs create tasty dishes with love and quality to give
+                every customer an unforgettable dining experience.
+            </p>
+        </div>
+    </section>
+    <!-- Featured Menu -->
+    <section id="menu" class="py-16 bg-gray-100">
+        <h2 class="text-4xl font-bold text-center text-red-600 mb-10">
+            Featured Menu
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8 px-10">
+
+            <div class="bg-white rounded-lg shadow-lg p-4">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" class="rounded-lg">
+                <h3 class="text-2xl font-bold mt-4">Pizza</h3>
+                <p>Cheesy pizza with fresh toppings.</p>
+                <p class="text-red-600 font-bold mt-2">₹299</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-4">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80" class="rounded-lg">
+                <h3 class="text-2xl font-bold mt-4">Burger</h3>
+                <p>Juicy grilled chicken burger.</p>
+                <p class="text-red-600 font-bold mt-2">₹199</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-4">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" class="rounded-lg">
+                <h3 class="text-2xl font-bold mt-4">Pasta</h3>
+                <p>Creamy Italian pasta.</p>
+                <p class="text-red-600 font-bold mt-2">₹249</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-4">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" class="rounded-lg">
+                <h3 class="text-2xl font-bold mt-4">Fried Chicken</h3>
+                <p>Crispy fried chicken served hot.</p>
+                <p class="text-red-600 font-bold mt-2">₹349</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-4">
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=800&q=80" class="rounded-lg">
+                <h3 class="text-2xl font-bold mt-4">French Fries</h3>
+                <p>Golden crispy fries with dip.</p>
+                <p class="text-red-600 font-bold mt-2">₹149</p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-4">
+                <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80" class="rounded-lg">
+                <h3 class="text-2xl font-bold mt-4">Cold Drink</h3>
+                <p>Refreshing chilled beverage.</p>
+                <p class="text-red-600 font-bold mt-2">₹99</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Why Choose Us -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-red-600 mb-10">
+                Why Choose Us
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8 px-8">
+
+                <div class="bg-gray-100 p-6 rounded-lg shadow">
+                    <h3 class="text-2xl font-bold">🍽 Fresh Ingredients</h3>
+                    <p class="mt-3 text-gray-600">
+                        We use fresh and high-quality ingredients every day.
+                    </p>
+                </div>
+
+                <div class="bg-gray-100 p-6 rounded-lg shadow">
+                    <h3 class="text-2xl font-bold">👨‍🍳 Expert Chefs</h3>
+                    <p class="mt-3 text-gray-600">
+                        Our experienced chefs prepare every dish with care.
+                    </p>
+                </div>
+
+                <div class="bg-gray-100 p-6 rounded-lg shadow">
+                    <h3 class="text-2xl font-bold">🚚 Fast Service</h3>
+                    <p class="mt-3 text-gray-600">
+                        Quick service with excellent customer support.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section><!-- Customer Testimonials -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-red-600 mb-10">
+                Customer Testimonials
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8 px-8">
+
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p>"The food was absolutely delicious. Highly recommended!"</p>
+                    <h4 class="font-bold mt-4">- Rahul</h4>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p>"Excellent service and wonderful atmosphere."</p>
+                    <h4 class="font-bold mt-4">- Priya</h4>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p>"Best restaurant in town. I will definitely visit again."</p>
+                    <h4 class="font-bold mt-4">- Kiran</h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Gallery -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-red-600 mb-10">
+                Gallery
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-6 px-8">
+
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow-lg">
+
+                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow-lg">
+
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80" class="rounded-lg shadow-lg">
+
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Us -->
+    <section class="py-16 bg-gray-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-red-600 mb-8">
+                Contact Us
+            </h2>
+
+            <p class="text-lg">📍 123 Food Street, Bangalore</p>
+            <p class="text-lg mt-2">📞 +91 9876543210</p>
+            <p class="text-lg mt-2">✉ info@restaurant.com</p>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-6">
+        <p>© 2026 Delicious Restaurant. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
